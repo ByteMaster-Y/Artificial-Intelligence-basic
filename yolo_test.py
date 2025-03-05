@@ -5,7 +5,7 @@ import cv2
 model = YOLO("yolov8n.pt")  # 'n'은 nano 모델 (빠름). 's', 'm', 'l', 'x'도 가능
 
 # 테스트할 이미지 로드
-image_path = "/Users/bytemaster/Documents/GitHub/AI/obama.jpeg"
+image_path = "이미지경로"
 image = cv2.imread(image_path)
 
 # 객체 탐지 수행
